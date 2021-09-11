@@ -1,0 +1,124 @@
+.
+├── Procfile
+├── README.md
+├── azure_chatbot
+│   ├── Procfile
+│   ├── README.md
+│   ├── __init__.py
+│   ├── app.py
+│   ├── app.yaml
+│   ├── bot.py
+│   ├── cards
+│   │   ├── __init__.py
+│   │   ├── addOrUpdateResultCard.py
+│   │   ├── addTodoCard.py
+│   │   ├── deleteCard.py
+│   │   ├── myEhrCard.py
+│   │   ├── reminderCard.py
+│   │   ├── updateCard.py
+│   │   ├── viewAllCard.py
+│   │   └── winnie.jpg
+│   ├── config.py
+│   ├── deploymentTemplates
+│   │   ├── template-with-new-rg.json
+│   │   └── template-with-preexisting-rg.json
+│   ├── index.html
+│   ├── requirements.txt
+│   ├── test.py
+│   ├── test2.py
+│   └── winnie.jpg
+├── backend
+│   ├── Procfile
+│   ├── README.md
+│   ├── __pycache__
+│   │   ├── controller.cpython-37.pyc
+│   │   ├── controller.cpython-38.pyc
+│   │   ├── controller.cpython-39.pyc
+│   │   ├── main.cpython-37.pyc
+│   │   ├── main.cpython-38.pyc
+│   │   ├── main.cpython-39.pyc
+│   │   ├── model.cpython-37.pyc
+│   │   ├── model.cpython-38.pyc
+│   │   └── model.cpython-39.pyc
+│   ├── app.yaml
+│   ├── config
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── __init__.cpython-37.pyc
+│   │       ├── __init__.cpython-38.pyc
+│   │       └── __init__.cpython-39.pyc
+│   ├── controller.py
+│   ├── main.py
+│   ├── model.py
+│   └── requirements.txt
+├── cronjob
+│   ├── proactive_message.py
+│   ├── readme.md
+│   └── requirements.txt
+├── frontend
+│   ├── README.md
+│   ├── images
+│   │   ├── add_1.png
+│   │   ├── add_2.png
+│   │   ├── delete.png
+│   │   ├── login_1.png
+│   │   ├── login_2.png
+│   │   └── modify.png
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   └── src
+│       ├── Switch.jsx
+│       ├── index.css
+│       ├── index.js
+│       └── pages
+│           ├── Home
+│           │   ├── api
+│           │   │   └── Api.js
+│           │   ├── components
+│           │   │   ├── Edit.js
+│           │   │   ├── Item.js
+│           │   │   ├── List.js
+│           │   │   └── Loader
+│           │   │       ├── Loader.css
+│           │   │       └── Loader.jsx
+│           │   ├── index.css
+│           │   └── index.jsx
+│           └── Login
+│               ├── index.css
+│               └── index.jsx
+├── img
+│   ├── auto_gen_docs.PNG
+│   ├── cron_dashboard.PNG
+│   ├── cron_pubsub.PNG
+│   ├── cron_trigger.PNG
+│   ├── head.PNG
+│   ├── mongo_ToDo.PNG
+│   ├── mongo_collection.PNG
+│   ├── mongo_create_db.PNG
+│   ├── mongo_docker.PNG
+│   ├── mongo_gcp.PNG
+│   ├── mongo_get.PNG
+│   └── start.PNG
+├── line_chatbot
+│   ├── Procfile
+│   ├── README.md
+│   ├── app.py
+│   ├── config.ini
+│   ├── magicMessage
+│   │   ├── __pycache__
+│   │   │   └── carousel.cpython-39.pyc
+│   │   └── carousel.py
+│   └── requirements.txt
+├── mongodb
+│   ├── docker-compose.yaml
+│   └── readme.md
+└── tree.text
+
+23 directories, 98 files
